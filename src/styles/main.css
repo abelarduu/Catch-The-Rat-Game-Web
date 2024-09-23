@@ -1,0 +1,56 @@
+body{
+    background-image: url("../images/wall.png");
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    padding: 50px 0;
+    background-color: #000000;
+    border-bottom: 10px solid gold;
+    color: #ffffff;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 5px;
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+    margin-top: 20px; 
+}
+
+.banner-row {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    height: 150px;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 20%;
+}
+
+.enemy{
+    background-image: url("../images/rat.gif");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
